@@ -1,5 +1,5 @@
 import { createStore } from "redux";
-import { reducer } from "./index";
+import { reducer } from "./reducers/index";
 
 // create store is use for create storage its have reducer the  function change value and second arg is state
 const store = createStore(

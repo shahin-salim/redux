@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './container/Header';
 import ProductCompenent from './container/ProductList'
-import ProductDetails from './container/PorductDetail';
+import ProductDetails from './container/PorductDetails';
 
 
 

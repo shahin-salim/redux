@@ -15,6 +15,8 @@ import AccountCircle from "@mui/icons-material/AccountCircle";
 import MailIcon from "@mui/icons-material/Mail";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import MoreIcon from "@mui/icons-material/MoreVert";
+import Container from '@mui/material/Container';
+
 
 const Search = styled("div")(({ theme }) => ({
      position: "relative",
@@ -151,7 +153,7 @@ const Header = () => {
      );
 
      return (
-          <Box sx={{ flexGrow: 1 }}>
+          <Box sx={{ flexGrow: 1 }} style={{position:"fixed", top: "0", width: "100%", zIndex: "8"}}>
                <AppBar position="static">
                     <Toolbar>
                          <IconButton size="large" edge="start" color="inherit" aria-label="open drawer" sx={{ mr: 2 }}>
