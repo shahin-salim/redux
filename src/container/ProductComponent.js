@@ -23,7 +23,7 @@ const ProductCompenent = () => {
     const navigate = useNavigate()
 
 
-    const renderList = products.map((data) => {
+    const renderList =  products.map((data) => {
 
         const { id, title, image, price, description } = data
 
